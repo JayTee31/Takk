@@ -11,3 +11,9 @@ jobs:
       - name: Baj van
         run: echo $GITHUB_ACTOR a vizilovakkal van
 
+      - name: Most megnézem a kódodat
+        uses: actions/checkout@v2
+
+      - name: De most tényleg leellenőrizlek
+        run: ls -la
+
