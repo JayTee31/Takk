@@ -1,0 +1,13 @@
+name: Szia-Uram
+
+on: push
+
+jobs:
+  szia-uram:
+    name: Szia Uram!
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baj van
+        run: echo "Én a vizilovakkal vagyok"
+
