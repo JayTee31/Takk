@@ -17,3 +17,5 @@ jobs:
       - name: De most tényleg leellenőrizlek
         run: ls -la
 
+      - name: Na mivan
+        run: less $GITHUB_ACTOR
